@@ -40,7 +40,7 @@ def convert(from_currency: str, to_currency: str, amount: int)-> conversionResul
 
 # get all currencies
 @app.get('/currencies')
-def fetch_currencies() -> list[str]:
+def fetch_currencies():
     try:
         api_key = API_KEY
         result = fetchCurrencies(api_key)
