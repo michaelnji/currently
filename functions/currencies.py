@@ -1,4 +1,4 @@
-def fetchCurrencies(api_key):
+def fetchCurrencies(api_key) ->list[str]:
     """
     Convert currency using the UnirateAPI
     """
